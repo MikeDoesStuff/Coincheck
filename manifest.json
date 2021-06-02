@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+  
+    "name": "CoinCheck Plugin",
+    "description": "This extension will find the price of a crypto token/coin on CoinMarketCap",
+    "version": "0.1",
+    "permissions": [
+     "tabs","contextMenus","<all_urls>"
+     ],
+     "browser_action":{
+         "default_icon": "icon.png"
+     },
+     "background": {"page": "background.html"}
+     
+
+  }
